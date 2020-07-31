@@ -1,0 +1,24 @@
+2020-06-14T12:25:09+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_menu_page(), 0 passed in C:\xampp\htdocs\savez\wp-content\plugins\easy-contact-form\easy_contact.php on line 17 and at least 4 expected in C:\xampp\htdocs\savez\wp-admin\includes\plugin.php:1286
+Stack trace:
+#0 C:\xampp\htdocs\savez\wp-content\plugins\easy-contact-form\easy_contact.php(17): add_menu_page()
+#1 C:\xampp\htdocs\savez\wp-admin\includes\plugin.php(659): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\savez\wp-admin\plugins.php(44): activate_plugin('easy-contact-fo...', 'http://localhos...', false)
+#3 {main}
+  thrown in C:\xampp\htdocs\savez\wp-admin\includes\plugin.php on line 1286
+
+2020-06-14T12:25:13+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_menu_page(), 0 passed in C:\xampp\htdocs\savez\wp-content\plugins\easy-contact-form\easy_contact.php on line 17 and at least 4 expected in C:\xampp\htdocs\savez\wp-admin\includes\plugin.php:1286
+Stack trace:
+#0 C:\xampp\htdocs\savez\wp-content\plugins\easy-contact-form\easy_contact.php(17): add_menu_page()
+#1 C:\xampp\htdocs\savez\wp-admin\includes\plugin.php(2255): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\savez\wp-admin\plugins.php(177): plugin_sandbox_scrape('easy-contact-fo...')
+#3 {main}
+  thrown in C:\xampp\htdocs\savez\wp-admin\includes\plugin.php on line 1286
+
+2020-06-14T12:25:13+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_menu_page(), 0 passed in C:\xampp\htdocs\savez\wp-content\plugins\easy-contact-form\easy_contact.php on line 17 and at least 4 expected in C:\xampp\htdocs\savez\wp-admin\includes\plugin.php:1286
+Stack trace:
+#0 C:\xampp\htdocs\savez\wp-content\plugins\easy-contact-form\easy_contact.php(17): add_menu_page()
+#1 C:\xampp\htdocs\savez\wp-admin\includes\plugin.php(2255): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\savez\wp-admin\plugins.php(177): plugin_sandbox_scrape('easy-contact-fo...')
+#3 {main}
+  thrown in C:\xampp\htdocs\savez\wp-admin\includes\plugin.php on line 1286
+

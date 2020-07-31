@@ -1,0 +1,10 @@
+2020-06-20T02:09:04+00:00 CRITICAL syntax error, unexpected '=', expecting ',' or ';' in C:\xampp\htdocs\savez\wp-content\plugins\easy-contact-form\easy_contact_form.php on line 160
+
+2020-06-20T02:09:55+00:00 CRITICAL syntax error, unexpected '=' in C:\xampp\htdocs\savez\wp-content\plugins\easy-contact-form\easy_contact_form.php on line 160
+
+2020-06-20T02:13:30+00:00 CRITICAL syntax error, unexpected '=' in C:\xampp\htdocs\savez\wp-content\plugins\easy-contact-form\easy_contact_form.php on line 159
+
+2020-06-20T05:56:03+00:00 CRITICAL syntax error, unexpected '?>', expecting '(' in C:\xampp\htdocs\savez\wp-content\plugins\easy-contact-form\easy_contact_table.php on line 8
+
+2020-06-20T06:30:03+00:00 CRITICAL Object of class stdClass could not be converted to string in C:\xampp\htdocs\savez\wp-content\plugins\easy-contact-form\easy_contact_show.php on line 41
+

@@ -1,0 +1,2 @@
+2020-06-08T06:28:25+00:00 CRITICAL Out of memory (allocated 29360128) (tried to allocate 65536 bytes) in C:\xampp\htdocs\savez\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Loader.php on line 128
+

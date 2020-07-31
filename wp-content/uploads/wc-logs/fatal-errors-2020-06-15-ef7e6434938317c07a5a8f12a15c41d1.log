@@ -1,0 +1,53 @@
+2020-06-15T04:27:17+00:00 CRITICAL Uncaught Error: Call to undefined function add_tool_page() in C:\xampp\htdocs\savez\wp-content\plugins\easy-contact-form\easy_contact.php:30
+Stack trace:
+#0 C:\xampp\htdocs\savez\wp-includes\class-wp-hook.php(287): easy_contact_add('')
+#1 C:\xampp\htdocs\savez\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\savez\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\savez\wp-admin\includes\menu.php(155): do_action('admin_menu', '')
+#4 C:\xampp\htdocs\savez\wp-admin\menu.php(326): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\savez\wp-admin\admin.php(153): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\savez\wp-admin\plugins.php(10): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\savez\wp-content\plugins\easy-contact-form\easy_contact.php on line 30
+
+2020-06-15T04:27:41+00:00 CRITICAL Uncaught Error: Call to undefined function add_tools_part() in C:\xampp\htdocs\savez\wp-content\plugins\easy-contact-form\easy_contact.php:30
+Stack trace:
+#0 C:\xampp\htdocs\savez\wp-includes\class-wp-hook.php(287): easy_contact_add('')
+#1 C:\xampp\htdocs\savez\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\savez\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\savez\wp-admin\includes\menu.php(155): do_action('admin_menu', '')
+#4 C:\xampp\htdocs\savez\wp-admin\menu.php(326): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\savez\wp-admin\admin.php(153): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\savez\wp-admin\plugins.php(10): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\savez\wp-content\plugins\easy-contact-form\easy_contact.php on line 30
+
+2020-06-15T04:30:57+00:00 CRITICAL Uncaught Error: Call to undefined function add_option_page() in C:\xampp\htdocs\savez\wp-content\plugins\easy-contact-form\easy_contact.php:30
+Stack trace:
+#0 C:\xampp\htdocs\savez\wp-includes\class-wp-hook.php(287): easy_contact_add('')
+#1 C:\xampp\htdocs\savez\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\savez\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\savez\wp-admin\includes\menu.php(155): do_action('admin_menu', '')
+#4 C:\xampp\htdocs\savez\wp-admin\menu.php(326): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\savez\wp-admin\admin.php(153): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\savez\wp-content\plugins\easy-contact-form\easy_contact.php on line 30
+
+2020-06-15T06:26:57+00:00 CRITICAL Uncaught Error: Call to undefined function easy_contact_design() in C:\xampp\htdocs\savez\wp-content\plugins\easy-contact-form\easy_contact.php:47
+Stack trace:
+#0 C:\xampp\htdocs\savez\wp-includes\class-wp-hook.php(287): easy_contact_form('')
+#1 C:\xampp\htdocs\savez\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\savez\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\savez\wp-admin\admin.php(254): do_action('toplevel_page_e...')
+#4 {main}
+  thrown in C:\xampp\htdocs\savez\wp-content\plugins\easy-contact-form\easy_contact.php on line 47
+
+2020-06-15T06:30:15+00:00 CRITICAL Uncaught Error: Call to undefined function easy_contact_design() in C:\xampp\htdocs\savez\wp-content\plugins\easy-contact-form\easy_contact.php:47
+Stack trace:
+#0 C:\xampp\htdocs\savez\wp-includes\class-wp-hook.php(287): easy_contact_form('')
+#1 C:\xampp\htdocs\savez\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\savez\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\savez\wp-admin\admin.php(254): do_action('toplevel_page_e...')
+#4 {main}
+  thrown in C:\xampp\htdocs\savez\wp-content\plugins\easy-contact-form\easy_contact.php on line 47
+

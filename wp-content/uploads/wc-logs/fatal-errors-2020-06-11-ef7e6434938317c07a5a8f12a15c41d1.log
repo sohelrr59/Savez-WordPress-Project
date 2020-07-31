@@ -1,0 +1,12 @@
+2020-06-11T04:52:52+00:00 CRITICAL Uncaught Error: Call to undefined function the_thumbnail() in C:\xampp\htdocs\savez\wp-content\plugins\sohel-custom-post\sohel_custom_post.php:59
+Stack trace:
+#0 C:\xampp\htdocs\savez\wp-includes\shortcodes.php(343): sohel_custom_show('', '', 'sohel_custom')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\savez\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(sohel_...', 'do_shortcode_ta...', '\n[sohel_custom]...')
+#3 C:\xampp\htdocs\savez\wp-includes\class-wp-hook.php(287): do_shortcode('\n[sohel_custom]...')
+#4 C:\xampp\htdocs\savez\wp-includes\plugin.php(206): WP_Hook->apply_filters('\n[sohel_custom]...', Array)
+#5 C:\xampp\htdocs\savez\wp-includes\post-template.php(253): apply_filters('the_content', '<!-- wp:paragra...')
+#6 C:\xampp\htdocs\savez\wp-content\themes\uptheme\page.php(55): the_content()
+#7 C:\xampp\htdocs\savez\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\savez\wp-blog-header.php(19): require_once('C:\\xampp\\htdo in C:\xampp\htdocs\savez\wp-content\plugins\sohel-custom-post\sohel_custom_post.php on line 59
+

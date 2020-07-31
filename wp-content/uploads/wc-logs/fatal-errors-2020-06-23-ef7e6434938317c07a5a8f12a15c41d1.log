@@ -1,0 +1,30 @@
+2020-06-23T04:51:15+00:00 CRITICAL syntax error, unexpected '?>' in C:\xampp\htdocs\savez\wp-content\plugins\easy-contact-form\easy_contact_edit.php on line 62
+
+2020-06-23T06:31:18+00:00 CRITICAL Uncaught Error: Call to undefined function DBP_update() in C:\xampp\htdocs\savez\wp-content\plugins\easy-contact-form\easy_contact_edit.php:8
+Stack trace:
+#0 C:\xampp\htdocs\savez\wp-content\plugins\easy-contact-form\easy_contact_edit.php(5): DBP_update_form('1')
+#1 C:\xampp\htdocs\savez\wp-content\plugins\easy-contact-form\easy_contact_show.php(13): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\savez\wp-content\plugins\easy-contact-form\easy_contact.php(25): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\savez\wp-includes\class-wp-hook.php(287): easy_contact_table('')
+#4 C:\xampp\htdocs\savez\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\savez\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\savez\wp-admin\admin.php(254): do_action('easy-contact_pa...')
+#7 {main}
+  thrown in C:\xampp\htdocs\savez\wp-content\plugins\easy-contact-form\easy_contact_edit.php on line 8
+
+2020-06-23T06:51:58+00:00 CRITICAL syntax error, unexpected 'global' (T_GLOBAL) in C:\xampp\htdocs\savez\wp-content\plugins\easy-contact-form\easy_contact_edit.php on line 156
+
+2020-06-23T07:32:36+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in C:\xampp\htdocs\savez\wp-content\plugins\easy-contact-form\easy_contact_edit.php on line 72
+
+2020-06-23T09:25:59+00:00 CRITICAL Uncaught Error: Call to undefined function DBP_update() in C:\xampp\htdocs\savez\wp-content\plugins\easy-contact-form\easy_contact_edit.php:8
+Stack trace:
+#0 C:\xampp\htdocs\savez\wp-content\plugins\easy-contact-form\easy_contact_edit.php(5): DBP_update_form('3')
+#1 C:\xampp\htdocs\savez\wp-content\plugins\easy-contact-form\easy_contact_show.php(13): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\savez\wp-content\plugins\easy-contact-form\easy_contact.php(25): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\savez\wp-includes\class-wp-hook.php(287): easy_contact_table('')
+#4 C:\xampp\htdocs\savez\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\savez\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\savez\wp-admin\admin.php(254): do_action('easy-contact_pa...')
+#7 {main}
+  thrown in C:\xampp\htdocs\savez\wp-content\plugins\easy-contact-form\easy_contact_edit.php on line 8
+
